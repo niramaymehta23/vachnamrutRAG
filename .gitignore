@@ -24,3 +24,10 @@ swamini_vaato_chroma/
 # IDE
 .vscode/
 .idea/
+# .venv/ was missing — scripts/.venv here was not ignored
+.venv/
+**/.venv/
+
+# Test/build caches
+.pytest_cache/
+*.egg-info/
